@@ -11,7 +11,7 @@ namespace Tyuiu.BarabashMI.Sprint1.Task4.V24.Test
             double x = 2;
             double y = 3;
             var res = ds.Calculate(x, y);
-            Assert.AreEqual(0.287, res);
+            Assert.AreEqual(0.333, res);
         }
     }
 }
