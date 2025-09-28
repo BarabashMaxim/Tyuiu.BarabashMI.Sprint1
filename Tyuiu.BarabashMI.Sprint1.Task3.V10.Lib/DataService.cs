@@ -10,8 +10,9 @@ namespace Tyuiu.BarabashMI.Sprint1.Task3.V10.Lib
             string[] numbers = str.Split(',');
             string n1 = numbers[0];
             string n2 = numbers[1];
-            
-            return n1 + " руб. " + n2 + " коп.";
+            if (n2.Length == 1)
+                n2 = n2 + "0";
+            return (number + " руб. - это " + n1 + " руб. " + n2 + " коп.");
         }
     }
 }

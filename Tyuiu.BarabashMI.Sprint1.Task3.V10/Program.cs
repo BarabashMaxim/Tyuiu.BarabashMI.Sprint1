@@ -29,7 +29,7 @@ class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                               *");
         Console.WriteLine("****************************************************************************");
 
-        Console.WriteLine(x + "руб. - это " + ds.NumberToMoney(x));
+        Console.WriteLine(ds.NumberToMoney(x));
 
 
 
