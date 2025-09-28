@@ -7,12 +7,13 @@ namespace Tyuiu.BarabashMI.Sprint1.Task3.V10.Lib
         {
             double roundnumber = Math.Round(number,3);
             string str = roundnumber.ToString();
-            string[] numbers = str.Split(',');
+            string newstr = str.Replace(',', '.');
+            string[] numbers = newstr.Split('.');
             string n1 = numbers[0];
             string n2 = numbers[1];
             if (n2.Length == 1)
                 n2 = n2 + "0";
-            return (number + " руб. - это " + n1 + " руб. " + n2 + " коп.");
+            return (newstr + " руб. - это " + n1 + " руб. " + n2 + " коп.");
         }
     }
 }
