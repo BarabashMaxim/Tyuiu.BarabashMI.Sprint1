@@ -7,7 +7,7 @@ namespace Tyuiu.BarabashMI.Sprint1.Task6.V1.Lib
         {
             char cr = Convert.ToChar(value);
             int crCode = Convert.ToInt32(cr);
-            return ($"Символ: {cr} Код: {crCode}");
+            return ($"{crCode}");
         }
     }
 }

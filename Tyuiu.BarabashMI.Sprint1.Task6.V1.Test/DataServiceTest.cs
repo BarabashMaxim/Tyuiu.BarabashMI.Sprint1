@@ -9,7 +9,7 @@ namespace Tyuiu.BarabashMI.Sprint1.Task6.V1.Test
         {
             DataService ds = new DataService();
             string str = "1";
-            string res = "Символ: 1 Код: 49";
+            string res = "49";
             Assert.AreEqual(res, ds.SymbolCode(str));
         }
     }
